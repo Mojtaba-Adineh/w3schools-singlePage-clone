@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro'
+}
+
+.navBar{
+    height: 80px;
+    position: relative;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.leftItems{
+    list-style-type: none;
+    position: absolute;
+    left: 90px;
+    top: 30px;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 29px 12px;
+}
+
+li a:hover{
+    background-color: #31aa6f;
+    color: white;
+}
+
+.rightItems{
+    list-style-type: none;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    margin-right: 30px;
+}
+
+.logIn{
+    text-decoration: none;
+    color: white;
+    background-color: #31aa6f;
+    width: 115px;
+    height: 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.logIn:hover{
+    background-color: #059862 ;
+}
+
+.rightIconsBox{
+    position: absolute;
+    right: 370px;
+    top: 31px;
+    margin-right: 15px;
+}
+
+i{
+    margin: 0 10px; 
+}
+
+.iconLinks{
+  color: black;
+}
+
+.iconLinks:hover{
+    color: #059862;
+}
+
+.mainPage{
+    background-color: #282a35;
+    height: 600px;
+    position: relative;
+}
+
+.pageBox{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 190px;
+}
+
+.htmlText{
+    font-size: 110px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.learnButton{
+    width: 220px;
+    background-color: #31aa6f;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 30px;
+    padding: 12px 10px;
+    font-weight: bold;
+    position: absolute;
+    left: 85px;
+    top: 210px;
+}
+
+.learnButton:hover{
+    background-color: #059862;
+}
+
+.referenceButton{
+    width: 220px;
+    background-color: white;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    border-radius: 30px;
+    padding: 12px 10px;
+    font-weight: bold;
+    position: absolute;
+    left: 85px;
+    top: 280px;
+}
+
+.referenceButton:hover{
+    background-color: #E7E9EB;
+}
+
+.codeBox{
+    background-color: #E7E9EB;
+    position: absolute;
+    width: 570px;
+    height: 430px;
+    right: 0;
+    right: 150px;
+    top: 85px;
+    border-radius: 5px;
+    padding: 20px; 
+}
+
+.title{
+    font-size: 25px;
+}
+
+.codeSection{
+    width: 530px;
+    height: 280px;
+    background-color: white;
+    margin: 20px auto;
+    border-left: 5px solid #31aa6f;
+}
+
+.btn{
+    width: 200px;
+    height: 43px;
+    background-color: #31aa6f;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 30px;
+    padding: 12px 10px;
+    font-weight: bold;
+    left: 85px;
+    top: 210px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.btn:hover{
+    background-color: #059862;
+}
